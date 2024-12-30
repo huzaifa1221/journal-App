@@ -1,6 +1,6 @@
 package com.springboot.journalApp.controller;
 
-import com.springboot.journalApp.Service.UserService;
+import com.springboot.journalApp.service.UserService;
 import com.springboot.journalApp.entity.User;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +10,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
 import com.springboot.journalApp.entity.JournalEntry;
-import com.springboot.journalApp.Service.journalService;
+import com.springboot.journalApp.service.journalService;
 import java.util.*;
 
 @RestController

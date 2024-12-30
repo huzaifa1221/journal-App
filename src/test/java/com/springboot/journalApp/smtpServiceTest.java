@@ -1,6 +1,6 @@
 package com.springboot.journalApp;
 
-import com.springboot.journalApp.Service.EmailService;
+import com.springboot.journalApp.service.EmailService;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

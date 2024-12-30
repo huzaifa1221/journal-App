@@ -1,4 +1,4 @@
-package com.springboot.journalApp.Service;
+package com.springboot.journalApp.service;
 
 import com.springboot.journalApp.entity.User;
 import com.springboot.journalApp.repository.UserRepo;

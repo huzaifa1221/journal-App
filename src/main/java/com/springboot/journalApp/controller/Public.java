@@ -1,7 +1,7 @@
 package com.springboot.journalApp.controller;
 
-import com.springboot.journalApp.Service.UserService;
-import com.springboot.journalApp.Service.WeatherService;
+import com.springboot.journalApp.service.UserService;
+import com.springboot.journalApp.service.WeatherService;
 import com.springboot.journalApp.api.WeatherResponse;
 import com.springboot.journalApp.entity.User;
 import lombok.extern.slf4j.Slf4j;

@@ -1,6 +1,6 @@
 package com.springboot.journalApp.config;
 
-import com.springboot.journalApp.Service.UserDetailServiceImpl;
+import com.springboot.journalApp.service.UserDetailServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
