@@ -82,21 +82,3 @@ public class journalEntryController
     }
 }
 
-//    @DeleteMapping("delete-all")
-//    public ResponseEntity<?> deleteAllJournal() {
-//        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
-//        User user = userservice.findUserbyusername(authentication.getName());
-//        journalservice.deleteAllEntries();
-//        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
-//    }
-
-//    @GetMapping
-//    public ResponseEntity<?> getAll()
-//    {
-//        List<JournalEntry> allEntries = journalservice.getAll();
-//        if ( allEntries != null )
-//        {
-//            return new ResponseEntity<>(allEntries, HttpStatus.OK);
-//        }
-//            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-//    }
