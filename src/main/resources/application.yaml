@@ -6,13 +6,13 @@ spring:
   data:
     mongodb:
       auto-index-creation: true
-      uri: mongodb+srv://username:dbpassword@cluster0.3xkkd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      uri: XXXXXXXXXXXXXXXX
       database: journaldb
   mail:
     host: smtp.gmail.com
     port: 587
-    username: dmeo.tsting@gmail.com
-    password: rwxc qlho bubo xyfa
+    username: email@gmail.com
+    password: XXXXXXXXXX
     properties:
       mail:
         smtp:
@@ -23,4 +23,4 @@ spring:
 weather:
   api:
     url: https://api.weatherstack.com/current?access_key=API_KEY&query=CITY
-    key: 0e4bf6cdae49c98288c53b9dbd8a6761
+    key: XXXXXXXXXXXXX
