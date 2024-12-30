@@ -19,6 +19,6 @@ public class smtpServiceTest
     {
         smtpservice.sendMail("<ENTER MAIL ID>",
                 "this is the subject matter of the mail",
-                "this is the body of the mail, hi huzaifa");
+                "this is the body of the mail, HI HOW ARE YOU ?");
     }
 }
